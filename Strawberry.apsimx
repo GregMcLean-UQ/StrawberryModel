@@ -28,7 +28,7 @@
                     {
                       "$type": "Models.PostSimulationTools.ExcelInput, Models",
                       "FileNames": [
-                        "obs\\Observed.xlsx"
+                        "obs/Observed.xlsx"
                       ],
                       "SheetNames": [
                         "Observed"
@@ -31657,7 +31657,7 @@
               "LegendPosition": 3,
               "LegendOrientation": 0,
               "AnnotationLocation": 0,
-              "DisabledSeries": null,
+              "DisabledSeries": [],
               "LegendOutsideGraph": false,
               "Name": "DaysToMaturity",
               "ResourceName": null,
@@ -31737,7 +31737,7 @@
               "LegendPosition": 3,
               "LegendOrientation": 0,
               "AnnotationLocation": 0,
-              "DisabledSeries": null,
+              "DisabledSeries": [],
               "LegendOutsideGraph": false,
               "Name": "Yield",
               "ResourceName": null,
