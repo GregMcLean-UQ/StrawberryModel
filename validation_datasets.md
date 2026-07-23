@@ -120,9 +120,11 @@
 
 ---
 
-## Dataset 5 — Durner 2005 (and related controlled-environment studies) *(photoperiod gate parameters)*
+## Dataset 5 — Verheul et al. 2006 *(photoperiod gate parameters)*
 
-**Citation:** Durner, E. F., Poling, E. B., & Albregts, E. A. (2002); also Durner, E. F. (2005). Interactions of photoperiod, temperature, duration of short-day treatment and plant age on flowering of *Fragaria* × ananassa Duch. cv. Korona. *Scientia Horticulturae*, 108(1), 62–66. https://doi.org/10.1016/j.scienta.2005.12.013
+**Citation:** Verheul, M. J., Sønsteby, A., & Grimstad, S. O. (2006). Interactions of photoperiod, temperature, duration of short-day treatment and plant age on flowering of *Fragaria* × ananassa Duch. cv. Korona. *Scientia Horticulturae*, 107(2), 164–170. https://doi.org/10.1016/j.scienta.2005.07.004
+
+*(Corrected 2026-07-23 — this dataset was previously misattributed to "Durner, E.F. (2005)"; the paper, URL, and findings below are unchanged, only the author/year/volume/DOI were wrong.)*
 
 **URL:** https://www.sciencedirect.com/science/article/abs/pii/S030442380500258X *(paywalled)*
 
@@ -136,7 +138,7 @@
 
 **Sub-model validated:** `StrawberryPhotoperiod.cs` — CriticalDayLength, MinInductiveDays, MinInductiveTemp/MaxInductiveTemp, HeatSuppressionThreshold
 
-**Notes:** These results broadly support the default parameter values in the photoperiod script. Durner's 1984 paper (JASHS) is the original DN threshold work; the 2005 Korona paper is most directly comparable to the SD gate logic.
+**Notes:** These results broadly support the default parameter values in the photoperiod script. Durner's 1984 paper (JASHS) is the original DN threshold work; the 2006 Korona paper (Verheul et al.) is most directly comparable to the SD gate logic.
 
 ---
 
@@ -147,13 +149,13 @@
 | Transplanting → Established       | Not well covered — use grower records |
 | Established → VegetativeGrowth    | Not well covered              |
 | VegetativeGrowth → FlowerInduction (bloom) | Bethere 2016, Costa 2021 |
-| FlowerInduction → Anthesis        | McWhirt 2023, Durner 2005     |
+| FlowerInduction → Anthesis        | McWhirt 2023, Verheul et al. 2006 |
 | Anthesis → FruitSet               | McWhirt 2023                  |
 | FruitSet → GreenFruit             | McWhirt 2023                  |
 | GreenFruit → Maturity             | McWhirt 2023, Bethere 2016    |
 | Maturity → Harvest                | Bethere 2016, Costa 2021      |
 | Dormancy / Utah chilling          | Tanino & Wang 2008            |
-| Photoperiod gate (SD)             | Durner 2005                   |
+| Photoperiod gate (SD)             | Verheul et al. 2006           |
 | Photoperiod gate (DN)             | Costa 2021, Durner 1984       |
 
 ---
